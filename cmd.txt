@@ -1,0 +1,4 @@
+
+PS C:\Users\Patrick Bormann\Desktop\LLM_Building_BLock> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+PS C:\Users\Patrick Bormann\Desktop\LLM_Building_BLock> .venv\Scripts\activate
+
