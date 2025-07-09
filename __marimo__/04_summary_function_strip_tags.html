@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/@marimo-team/frontend@0.14.10/dist/favicon.ico" />
+    <!-- Preload is necessary because we show these images when we disconnect from the server,
+    but at that point we cannot load these images from the server -->
+    <link rel="preload" crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/@marimo-team/frontend@0.14.10/dist/assets/gradient-yHQUC_QB.png" as="image" />
+    <link rel="preload" crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/@marimo-team/frontend@0.14.10/dist/assets/noise-60BoTA8O.png" as="image" />
+    <!-- Preload the fonts -->
+    <link rel="preload" crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/@marimo-team/frontend@0.14.10/dist/assets/Lora-VariableFont_wght-B2ootaw-.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/@marimo-team/frontend@0.14.10/dist/assets/PTSans-Regular-CxL0S8W7.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/@marimo-team/frontend@0.14.10/dist/assets/PTSans-Bold-D9fedIX3.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/@marimo-team/frontend@0.14.10/dist/assets/FiraMono-Regular-BTCkDNvf.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/@marimo-team/frontend@0.14.10/dist/assets/FiraMono-Medium-DU3aDxX5.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/@marimo-team/frontend@0.14.10/dist/assets/FiraMono-Bold-CLVRCuM9.ttf" as="font" crossorigin="anonymous" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="a marimo app" />
+    <link rel="apple-touch-icon" crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/@marimo-team/frontend@0.14.10/dist/apple-touch-icon.png" />
+    <link rel="manifest" crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/@marimo-team/frontend@0.14.10/dist/manifest.json" />
+
+    <script data-marimo="true">
+      function __resizeIframe(obj) {
+        var scrollbarHeight = 20; // Max between windows, mac, and linux
+
+        function setHeight() {
+          var element = obj.contentWindow.document.documentElement;
+          // If there is no vertical scrollbar, we don't need to resize the iframe
+          if (element.scrollHeight === element.clientHeight) {
+            return;
+          }
+
+          // Create a new height that includes the scrollbar height if it's visible
+          var hasHorizontalScrollbar = element.scrollWidth > element.clientWidth;
+          var newHeight = element.scrollHeight + (hasHorizontalScrollbar ? scrollbarHeight : 0);
+
+          // Only update the height if it's different from the current height
+          if (obj.style.height !== `${newHeight}px`) {
+            obj.style.height = `${newHeight}px`;
+          }
+        }
+
+        // Resize the iframe to the height of the content and bottom scrollbar height
+        setHeight();
+
+        // Resize the iframe when the content changes
+        const resizeObserver = new ResizeObserver((entries) => {
+          setHeight();
+        });
+        resizeObserver.observe(obj.contentWindow.document.body);
+      }
+    </script>
+    <marimo-filename hidden>04_summary_function_strip_tags.py</marimo-filename>
+    <!-- TODO(Trevor): Legacy, required by VS Code plugin. Remove when plugin is updated (see marimo/server/_templates/template.py) -->
+    <marimo-version data-version="{{ version }}" hidden></marimo-version>
+    <marimo-user-config data-config="{{ user_config }}" hidden></marimo-user-config>
+    <marimo-server-token data-token="{{ server_token }}" hidden></marimo-server-token>
+    <!-- /TODO -->
+    <title>04 summary function strip tags</title>
+    <script type="module" crossorigin crossorigin="anonymous" src="https://cdn.jsdelivr.net/npm/@marimo-team/frontend@0.14.10/dist/assets/index-txb0mb7R.js"></script>
+    <link rel="stylesheet" crossorigin crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/@marimo-team/frontend@0.14.10/dist/assets/index-B-hr6ABS.css">
+  
+<script data-marimo="true">
+    window.__MARIMO_STATIC__ = {};
+    window.__MARIMO_STATIC__.files = {};
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script data-marimo="true">
+      window.__MARIMO_MOUNT_CONFIG__ = {
+            "filename": "04_summary_function_strip_tags.py",
+            "mode": "read",
+            "version": "0.14.10",
+            "serverToken": "static",
+            "config": {"completion": {"activate_on_typing": true, "copilot": false}, "display": {"cell_output": "above", "code_editor_font_size": 14, "dataframes": "rich", "default_table_page_size": 10, "default_width": "medium", "reference_highlighting": false, "theme": "light"}, "formatting": {"line_length": 79}, "keymap": {"overrides": {}, "preset": "default"}, "language_servers": {"pylsp": {"enable_flake8": false, "enable_mypy": true, "enable_pydocstyle": false, "enable_pyflakes": false, "enable_pylint": false, "enable_ruff": true, "enabled": true}}, "package_management": {"manager": "uv"}, "runtime": {"auto_instantiate": true, "auto_reload": "off", "default_sql_output": "auto", "on_cell_change": "autorun", "output_max_bytes": 8000000, "reactive_tests": true, "std_stream_max_bytes": 1000000, "watcher_on_save": "lazy"}, "save": {"autosave": "after_delay", "autosave_delay": 1000, "format_on_save": false}, "server": {"browser": "default", "follow_symlink": false}, "snippets": {"custom_paths": [], "include_default_snippets": true}},
+            "configOverrides": {},
+            "appConfig": {"sql_output": "auto", "width": "medium"},
+            "view": {"showAppCode": true},
+            "notebook": {"cells": [{"code": "from pydantic import BaseModel\nimport marimo as mo\nimport llm\nimport json\nfrom dotenv import load_dotenv\nfrom strip_tags import strip_tags\nimport requests\nfrom bs4 import BeautifulSoup\nfrom pprint import pprint\n\n\nload_dotenv(\".env\")\nmodel = llm.get_model(\"gpt-4o-mini\")", "code_hash": "86428818e55e33c5c21e12b01d879ae2", "config": {"column": null, "disabled": false, "hide_code": false}, "id": "Hbol", "name": "_"}, {"code": "mo.md(\n    r\"\"\"\nuse the following url in the input: \n\nhttps://checkpointgaming.net/features/2025/07/donkey-kong-bananza-hands-on-preview-i-came-to-dig/\nhttps://checkpointgaming.net/reviews/2025/07/tamagotchi-plaza-review-colourful-repetition/\n\"\"\"\n)", "code_hash": "d6fc32eb431be8d706da76d8cb8339ab", "config": {"column": null, "disabled": false, "hide_code": false}, "id": "vblA", "name": "_"}, {"code": "class Summary(BaseModel):\n    title: str\n    summary: str\n    pros: list[str]\n    cons: list[str]\n\ndef summary(url):\n\n    def get_text_from_url(url):\n        response = requests.get(url)\n        soup = BeautifulSoup(response.content, 'html.parser')\n        return soup.prettify()\n    \n    stripped = strip_tags(get_text_from_url(url), selectors=[\"div\"], removes=[\"nav\", \"header\", \"footer\", \"thead\", \"tfooter\"], minify=True, keep_tags=[\"h1\"])\n     \n    resp = model.prompt(f\"Go to the following URL and make a summary: {stripped}\",  schema = Summary)\n    return json.loads(resp.json()[\"content\"])\n\ntext_widget = mo.ui.text(label=\"Input to summary function\").form()\ntext_widget", "code_hash": "cd9f3ffaee6c750f466902135857ad58", "config": {"column": null, "disabled": false, "hide_code": false}, "id": "bkHC", "name": "_"}, {"code": "pprint(summary(text_widget.value))", "code_hash": "21c97ea07256a65b120d3f6400875aa9", "config": {"column": null, "disabled": false, "hide_code": false}, "id": "lEQa", "name": "_"}], "metadata": {"marimo_version": "0.14.10"}, "version": "1"},
+            "session": {"cells": [{"code_hash": "86428818e55e33c5c21e12b01d879ae2", "console": [], "id": "Hbol", "outputs": [{"data": {"text/plain": ""}, "type": "data"}]}, {"code_hash": "d6fc32eb431be8d706da76d8cb8339ab", "console": [], "id": "vblA", "outputs": [{"data": {"text/html": "<span class=\"markdown prose dark:prose-invert\"><span class=\"paragraph\">use the following url in the input: </span>\n<span class=\"paragraph\"><a href=\"https://checkpointgaming.net/features/2025/07/donkey-kong-bananza-hands-on-preview-i-came-to-dig/\" rel=\"noopener\" target=\"_blank\">https://checkpointgaming.net/features/2025/07/donkey-kong-bananza-hands-on-preview-i-came-to-dig/</a>\n<a href=\"https://checkpointgaming.net/reviews/2025/07/tamagotchi-plaza-review-colourful-repetition/\" rel=\"noopener\" target=\"_blank\">https://checkpointgaming.net/reviews/2025/07/tamagotchi-plaza-review-colourful-repetition/</a></span></span>"}, "type": "data"}]}, {"code_hash": "cd9f3ffaee6c750f466902135857ad58", "console": [], "id": "bkHC", "outputs": [{"data": {"text/html": "<marimo-ui-element object-id='bkHC-2' random-id='8e54c1cc-8860-64ef-8cf6-1fdb8a274656'><marimo-form data-initial-value='null' data-label='null' data-element-id='&quot;bkHC-1&quot;' data-loading='false' data-bordered='true' data-submit-button-label='&quot;Submit&quot;' data-submit-button-disabled='false' data-clear-on-submit='false' data-show-clear-button='false' data-clear-button-label='&quot;Clear&quot;' data-should-validate='false'><marimo-ui-element object-id='bkHC-1' random-id='569848bc-8416-d778-cda1-7263fe4b1c9a'><marimo-text data-initial-value='&quot;&quot;' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Input to summary function&lt;/span&gt;&lt;/span&gt;&quot;' data-placeholder='&quot;&quot;' data-kind='&quot;text&quot;' data-full-width='false' data-disabled='false' data-debounce='true'></marimo-text></marimo-ui-element></marimo-form></marimo-ui-element>"}, "type": "data"}]}, {"code_hash": "21c97ea07256a65b120d3f6400875aa9", "console": [{"name": "stdout", "text": "{'cons': ['Possible motion sickness from camera angles during gameplay',\n          \"Initial impressions of Pauline's gameplay feel unbalanced\",\n          \"Potential for players to get lost due to game's vastness\"],\n 'pros': ['Engaging world design with unique environments',\n          'Innovative gameplay mechanics including Banaza transformations',\n          'Strong cooperative play feature with Pauline',\n          'Vast exploration opportunities in Ingot Isle'],\n 'summary': \"The preview of 'Donkey Kong Bananza,' set to release on July 17, \"\n            \"2025, reveals a game that combines elements of 'Super Mario \"\n            \"Odyssey' and 'Donkey Kong 64.' Players will explore the expansive \"\n            'Ingot Isle as Donkey Kong and Pauline, searching for treasures '\n            'while navigating diverse environments and challenges. New '\n            \"gameplay mechanics, such as Donkey Kong's Banaza transformations \"\n            'and cooperative multiplayer with Pauline, add depth and variety. '\n            'Despite not being a launch title for the Nintendo Switch 2, the '\n            'game promises a rich and expansive experience that requires '\n            'significant playtime and exploration.',\n 'title': 'Donkey Kong Bananza Hands-on Preview \u2013 I came to dig'}\n", "type": "stream"}], "id": "lEQa", "outputs": [{"data": {"text/plain": ""}, "type": "data"}]}], "metadata": {"marimo_version": "0.14.10"}, "version": "1"},
+            "runtimeConfig": null,
+        };
+    </script>
+  
+<marimo-code hidden="">
+    import%20marimo%0A%0A__generated_with%20%3D%20%220.14.10%22%0Aapp%20%3D%20marimo.App(width%3D%22medium%22)%0A%0A%0A%40app.cell%0Adef%20_()%3A%0A%20%20%20%20from%20pydantic%20import%20BaseModel%0A%20%20%20%20import%20marimo%20as%20mo%0A%20%20%20%20import%20llm%0A%20%20%20%20import%20json%0A%20%20%20%20from%20dotenv%20import%20load_dotenv%0A%20%20%20%20from%20strip_tags%20import%20strip_tags%0A%20%20%20%20import%20requests%0A%20%20%20%20from%20bs4%20import%20BeautifulSoup%0A%20%20%20%20from%20pprint%20import%20pprint%0A%0A%0A%20%20%20%20load_dotenv(%22.env%22)%0A%20%20%20%20model%20%3D%20llm.get_model(%22gpt-4o-mini%22)%0A%20%20%20%20return%20(%0A%20%20%20%20%20%20%20%20BaseModel%2C%0A%20%20%20%20%20%20%20%20BeautifulSoup%2C%0A%20%20%20%20%20%20%20%20json%2C%0A%20%20%20%20%20%20%20%20mo%2C%0A%20%20%20%20%20%20%20%20model%2C%0A%20%20%20%20%20%20%20%20pprint%2C%0A%20%20%20%20%20%20%20%20requests%2C%0A%20%20%20%20%20%20%20%20strip_tags%2C%0A%20%20%20%20)%0A%0A%0A%40app.cell%0Adef%20_(mo)%3A%0A%20%20%20%20mo.md(%0A%20%20%20%20%20%20%20%20r%22%22%22%0A%20%20%20%20use%20the%20following%20url%20in%20the%20input%3A%20%0A%0A%20%20%20%20https%3A%2F%2Fcheckpointgaming.net%2Ffeatures%2F2025%2F07%2Fdonkey-kong-bananza-hands-on-preview-i-came-to-dig%2F%0A%20%20%20%20https%3A%2F%2Fcheckpointgaming.net%2Freviews%2F2025%2F07%2Ftamagotchi-plaza-review-colourful-repetition%2F%0A%20%20%20%20%22%22%22%0A%20%20%20%20)%0A%20%20%20%20return%0A%0A%0A%40app.cell%0Adef%20_(BaseModel%2C%20BeautifulSoup%2C%20json%2C%20mo%2C%20model%2C%20requests%2C%20strip_tags)%3A%0A%20%20%20%20class%20Summary(BaseModel)%3A%0A%20%20%20%20%20%20%20%20title%3A%20str%0A%20%20%20%20%20%20%20%20summary%3A%20str%0A%20%20%20%20%20%20%20%20pros%3A%20list%5Bstr%5D%0A%20%20%20%20%20%20%20%20cons%3A%20list%5Bstr%5D%0A%0A%20%20%20%20def%20summary(url)%3A%0A%0A%20%20%20%20%20%20%20%20def%20get_text_from_url(url)%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20response%20%3D%20requests.get(url)%0A%20%20%20%20%20%20%20%20%20%20%20%20soup%20%3D%20BeautifulSoup(response.content%2C%20'html.parser')%0A%20%20%20%20%20%20%20%20%20%20%20%20return%20soup.prettify()%0A%0A%20%20%20%20%20%20%20%20stripped%20%3D%20strip_tags(get_text_from_url(url)%2C%20selectors%3D%5B%22div%22%5D%2C%20removes%3D%5B%22nav%22%2C%20%22header%22%2C%20%22footer%22%2C%20%22thead%22%2C%20%22tfooter%22%5D%2C%20minify%3DTrue%2C%20keep_tags%3D%5B%22h1%22%5D)%0A%0A%20%20%20%20%20%20%20%20resp%20%3D%20model.prompt(f%22Go%20to%20the%20following%20URL%20and%20make%20a%20summary%3A%20%7Bstripped%7D%22%2C%20%20schema%20%3D%20Summary)%0A%20%20%20%20%20%20%20%20return%20json.loads(resp.json()%5B%22content%22%5D)%0A%0A%20%20%20%20text_widget%20%3D%20mo.ui.text(label%3D%22Input%20to%20summary%20function%22).form()%0A%20%20%20%20text_widget%0A%20%20%20%20return%20summary%2C%20text_widget%0A%0A%0A%40app.cell%0Adef%20_(pprint%2C%20summary%2C%20text_widget)%3A%0A%20%20%20%20pprint(summary(text_widget.value))%0A%20%20%20%20return%0A%0A%0Aif%20__name__%20%3D%3D%20%22__main__%22%3A%0A%20%20%20%20app.run()%0A
+</marimo-code>
+
+<marimo-code-hash hidden="">e301de3d33cd2d61bef7e3edba56a5d59a18a40776f967bbe91fb4eccee833cd</marimo-code-hash>
+</body>
+</html>
