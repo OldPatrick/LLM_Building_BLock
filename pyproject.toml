@@ -6,12 +6,15 @@ authors = [{ name = "Your Name", email = "you@example.com" }]
 requires-python = ">=3.10"
 readme = "README.md"
 dependencies = [
+    "beautifulsoup4>=4.13.4",
     "llm>=0.26",
     "llm-anthropic>=0.17",
     "marimo>=0.14.10,<0.15.0",
     "migrate-to-uv (>=0.7.3,<0.8.0)",
     "python-dotenv>=1.1.1",
+    "requests>=2.32.4",
     "ruff>=0.12.2",
+    "strip-tags>=0.6",
 ]
 
 [dependency-groups]
