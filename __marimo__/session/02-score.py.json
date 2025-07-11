@@ -1,0 +1,142 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.14.10"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "5888dee661f9577f9257a40029811ac4",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre style='font-size: 12px'>True</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "4f376c389d94dc0b287bbcfd7cb612f3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='MJUe-0' random-id='085e3b5a-1a6c-31ea-94f1-a31e8dd668b9'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;label&#92;&quot;:&#92;&quot;ham&#92;&quot;,&#92;&quot;len&#92;&quot;:167},{&#92;&quot;label&#92;&quot;:&#92;&quot;spam&#92;&quot;,&#92;&quot;len&#92;&quot;:33}]&quot;' data-total-rows='2' data-total-columns='2' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;label&quot;, [&quot;string&quot;, &quot;str&quot;]], [&quot;len&quot;, [&quot;integer&quot;, &quot;u32&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "8b7b3b3154e918dad085a8583dfebcca",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><marimo-progress data-title='&quot;Showing a simple demo&quot;' data-total='100' data-progress='100' data-rate='9.93' data-eta='0.0'></marimo-progress></div>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "928613f39648dc5b06e49d0b3fe98807",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "gpt-4o\nchatgpt-4o-latest\ngpt-4o-mini\ngpt-4o-audio-preview\ngpt-4o-audio-preview-2024-12-17\ngpt-4o-audio-preview-2024-10-01\ngpt-4o-mini-audio-preview\ngpt-4o-mini-audio-preview-2024-12-17\ngpt-4.1\ngpt-4.1-mini\ngpt-4.1-nano\ngpt-3.5-turbo\ngpt-3.5-turbo-16k\ngpt-4\ngpt-4-32k\ngpt-4-1106-preview\ngpt-4-0125-preview\ngpt-4-turbo-2024-04-09\ngpt-4-turbo\ngpt-4.5-preview-2025-02-27\ngpt-4.5-preview\no1\no1-2024-12-17\no1-preview\no1-mini\no3-mini\no3\no4-mini\nanthropic/claude-3-opus-20240229\nanthropic/claude-3-opus-latest\nanthropic/claude-3-sonnet-20240229\nanthropic/claude-3-haiku-20240307\nanthropic/claude-3-5-sonnet-20240620\nanthropic/claude-3-5-sonnet-20241022\nanthropic/claude-3-5-sonnet-latest\nanthropic/claude-3-5-haiku-latest\nanthropic/claude-3-7-sonnet-20250219\nanthropic/claude-3-7-sonnet-latest\nanthropic/claude-opus-4-0\nanthropic/claude-sonnet-4-0\n"
+        }
+      ]
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "36a828625d4c51ec90cbf3d79ced92c0",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "c24abdc31e272cbf71aacf4ef57e6c04",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "{\"content\": \"ham\", \"finish_reason\": \"stop\", \"usage\": {\"completion_tokens\": 1, \"prompt_tokens\": 22, \"total_tokens\": 23, \"completion_tokens_details\": {\"accepted_prediction_tokens\": 0, \"audio_tokens\": 0, \"reasoning_tokens\": 0, \"rejected_prediction_tokens\": 0}, \"prompt_tokens_details\": {\"audio_tokens\": 0, \"cached_tokens\": 0}}, \"id\": \"chatcmpl-BrldBrX3UWimXqb7wV151FHjD8rR0\", \"object\": \"chat.completion.chunk\", \"model\": \"gpt-4o-2024-08-06\", \"created\": 1752154177}"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "21fa53051aba189208ceb2ee362ea420",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><marimo-progress data-title='&quot;Running LLM experiments&quot;' data-total='20' data-progress='20' data-rate='6667.15' data-eta='0.0'></marimo-progress></div>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "00b4d613120e5f4403445977c4e2f21c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<span class=\"markdown prose dark:prose-invert\"><h3 id=\"prompt\">Prompt:</h3>\n<span class=\"paragraph\"><div class=\"language-text codehilite\"><pre><span></span><code>is this spam or ham? only reply with spam or ham\n</code></pre></div>\nThe accuracy is 13/20 = 65.0%</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "3b364034affc99ae207163cd60e025a7",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "eff7d5dba32b4da32d9a67a519434d3f",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "fdab23647cda212b6ce092ebd4ba02ef",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "d2bb9ee899ef782c793351fbc21a5c74",
+      "outputs": [],
+      "console": []
+    }
+  ]
+}
