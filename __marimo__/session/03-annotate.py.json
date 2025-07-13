@@ -1,0 +1,201 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.14.10"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "7576bccc1d5a0308895e9ba5918155f7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre style='font-size: 12px'>True</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "fe53851d1ccd6f97bd841497b8f44e35",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "178a500e1a49ebd8c681c5c9c347d4eb",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "26760c5ceaa729bb3a895a65ea8a23b8",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "[{\"prompt\": \"seed={seed} Write me a haiku about {topic}\", \"inputs\": {\"topic\": \"new databases\"}, \"result\": \"In crisp code, they bloom,\\nNewborn databases shine,\\nFuture tales they groom.\"}, {\"prompt\": \"seed={seed} Write me a haiku about {topic}\", \"inputs\": {\"topic\": \"new databases\"}, \"result\": \"Fresh codes intertwine,\\nNew databases, realms of mind,\\nData gold, we find.\"}, {\"prompt\": \"seed={seed} Write me a haiku about {topic}\", \"inputs\": {\"topic\": \"new databases\"}, \"result\": \"In search fields, born anew,\\nDatabases gleam like morning dew,\\nSilent wisdom they accrue.\"}, {\"prompt\": \"seed={seed} Write me a haiku about {topic}\", \"inputs\": {\"topic\": \"new databases\"}, \"result\": \"In the digital sprawl,\\nNew databases rise, store, grow,\\nSilent knowledge calls.\"}, {\"prompt\": \"seed={seed} Write me a haiku about {topic}\", \"inputs\": {\"topic\": \"python library\"}, \"result\": \"Python library great,\\nIn data science, top rate,\\nCoding dreams await.\"}, {\"prompt\": \"seed={seed} Write me a haiku about {topic}\", \"inputs\": {\"topic\": \"python library\"}, \"result\": \"In code realms so vast,\\nPython library unfolds,\\nAid to queries past.\"}, {\"prompt\": \"seed={seed} Write me a haiku about {topic}\", \"inputs\": {\"topic\": \"python library\"}, \"result\": \"In vast code base thrives,\\nSilent library of Python,\\nKnowledge, unlocked, alive.\"}, {\"prompt\": \"seed={seed} Write me a haiku about {topic}\", \"inputs\": {\"topic\": \"python library\"}, \"result\": \"In code we converse,\\nPython library, universe,\\nKnowledge to disperse.\"}, {\"prompt\": \"seed={seed} Write me a funny haiku about {topic} that rhymes.\", \"inputs\": {\"topic\": \"new databases\"}, \"result\": \"New database sprung,\\nIn fields of data they sung,\\nMistake? Tongue-in-bung.\"}, {\"prompt\": \"seed={seed} Write me a funny haiku about {topic} that rhymes.\", \"inputs\": {\"topic\": \"new databases\"}, \"result\": \"In the realm of bytes,\\nNew databases ignite,\\nLaughs in terabyte nights.\"}, {\"prompt\": \"seed={seed} Write me a funny haiku about {topic} that rhymes.\", \"inputs\": {\"topic\": \"new databases\"}, \"result\": \"Bought a database new,\\nBut bugs flew in the review,\\nWhat a nerdy crew!\"}, {\"prompt\": \"seed={seed} Write me a funny haiku about {topic} that rhymes.\", \"inputs\": {\"topic\": \"new databases\"}, \"result\": \"New databases,\\nBrought chaos in its traces.\\nThe boss blames the cases!\\n\"}, {\"prompt\": \"seed={seed} Write me a funny haiku about {topic} that rhymes.\", \"inputs\": {\"topic\": \"python library\"}, \"result\": \"NumPy in the sky,\\nA Python lib, no lie.\\nIt brings joy, oh my!\"}, {\"prompt\": \"seed={seed} Write me a funny haiku about {topic} that rhymes.\", \"inputs\": {\"topic\": \"python library\"}, \"result\": \"A library vast,\\nPython\\u2019s range, oh what a blast!\\nMakes code run so fast!\"}, {\"prompt\": \"seed={seed} Write me a funny haiku about {topic} that rhymes.\", \"inputs\": {\"topic\": \"python library\"}, \"result\": \"NumPy in the night,\\nWith data frames taking flight.\\nOh, what a delight!\"}, {\"prompt\": \"seed={seed} Write me a funny haiku about {topic} that rhymes.\", \"inputs\": {\"topic\": \"python library\"}, \"result\": \"Pandas in the code,\\nBut don't be in a hurry,\\nIt ain't a real toad.\"}]"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "2e508dcf1f4ac11f88e5d05e9c35dabd",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lnEt",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "fe868b1051b5874af891ccb17996e833",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='PKri-0' random-id='24384566-1dad-94af-1270-a3ac7845e76d'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;inputs&#92;&quot;:{&#92;&quot;topic&#92;&quot;:&#92;&quot;python library&#92;&quot;},&#92;&quot;prompt_left&#92;&quot;:&#92;&quot;seed={seed} Write me a haiku about {topic}&#92;&quot;,&#92;&quot;result_left&#92;&quot;:&#92;&quot;Python library great,&#92;&#92;nIn data science, top rate,&#92;&#92;nCoding dreams await.&#92;&quot;,&#92;&quot;prompt_right&#92;&quot;:&#92;&quot;seed={seed} Write me a funny haiku about {topic} that rhymes.&#92;&quot;,&#92;&quot;result_right&#92;&quot;:&#92;&quot;NumPy in the sky,&#92;&#92;nA Python lib, no lie.&#92;&#92;nIt brings joy, oh my!&#92;&quot;},{&#92;&quot;inputs&#92;&quot;:{&#92;&quot;topic&#92;&quot;:&#92;&quot;python library&#92;&quot;},&#92;&quot;prompt_left&#92;&quot;:&#92;&quot;seed={seed} Write me a haiku about {topic}&#92;&quot;,&#92;&quot;result_left&#92;&quot;:&#92;&quot;In code realms so vast,&#92;&#92;nPython library unfolds,&#92;&#92;nAid to queries past.&#92;&quot;,&#92;&quot;prompt_right&#92;&quot;:&#92;&quot;seed={seed} Write me a funny haiku about {topic} that rhymes.&#92;&quot;,&#92;&quot;result_right&#92;&quot;:&#92;&quot;A library vast,&#92;&#92;nPython&#92;&#92;u2019s range, oh what a blast!&#92;&#92;nMakes code run so fast!&#92;&quot;},{&#92;&quot;inputs&#92;&quot;:{&#92;&quot;topic&#92;&quot;:&#92;&quot;python library&#92;&quot;},&#92;&quot;prompt_left&#92;&quot;:&#92;&quot;seed={seed} Write me a haiku about {topic}&#92;&quot;,&#92;&quot;result_left&#92;&quot;:&#92;&quot;In code we converse,&#92;&#92;nPython library, universe,&#92;&#92;nKnowledge to disperse.&#92;&quot;,&#92;&quot;prompt_right&#92;&quot;:&#92;&quot;seed={seed} Write me a funny haiku about {topic} that rhymes.&#92;&quot;,&#92;&quot;result_right&#92;&quot;:&#92;&quot;Pandas in the code,&#92;&#92;nBut don&#x27;t be in a hurry,&#92;&#92;nIt ain&#x27;t a real toad.&#92;&quot;},{&#92;&quot;inputs&#92;&quot;:{&#92;&quot;topic&#92;&quot;:&#92;&quot;new databases&#92;&quot;},&#92;&quot;prompt_left&#92;&quot;:&#92;&quot;seed={seed} Write me a haiku about {topic}&#92;&quot;,&#92;&quot;result_left&#92;&quot;:&#92;&quot;Fresh codes intertwine,&#92;&#92;nNew databases, realms of mind,&#92;&#92;nData gold, we find.&#92;&quot;,&#92;&quot;prompt_right&#92;&quot;:&#92;&quot;seed={seed} Write me a funny haiku about {topic} that rhymes.&#92;&quot;,&#92;&quot;result_right&#92;&quot;:&#92;&quot;In the realm of bytes,&#92;&#92;nNew databases ignite,&#92;&#92;nLaughs in terabyte nights.&#92;&quot;},{&#92;&quot;inputs&#92;&quot;:{&#92;&quot;topic&#92;&quot;:&#92;&quot;new databases&#92;&quot;},&#92;&quot;prompt_left&#92;&quot;:&#92;&quot;seed={seed} Write me a haiku about {topic}&#92;&quot;,&#92;&quot;result_left&#92;&quot;:&#92;&quot;In the digital sprawl,&#92;&#92;nNew databases rise, store, grow,&#92;&#92;nSilent knowledge calls.&#92;&quot;,&#92;&quot;prompt_right&#92;&quot;:&#92;&quot;seed={seed} Write me a funny haiku about {topic} that rhymes.&#92;&quot;,&#92;&quot;result_right&#92;&quot;:&#92;&quot;New databases,&#92;&#92;nBrought chaos in its traces.&#92;&#92;nThe boss blames the cases!&#92;&#92;n&#92;&quot;},{&#92;&quot;inputs&#92;&quot;:{&#92;&quot;topic&#92;&quot;:&#92;&quot;new databases&#92;&quot;},&#92;&quot;prompt_left&#92;&quot;:&#92;&quot;seed={seed} Write me a haiku about {topic}&#92;&quot;,&#92;&quot;result_left&#92;&quot;:&#92;&quot;In crisp code, they bloom,&#92;&#92;nNewborn databases shine,&#92;&#92;nFuture tales they groom.&#92;&quot;,&#92;&quot;prompt_right&#92;&quot;:&#92;&quot;seed={seed} Write me a funny haiku about {topic} that rhymes.&#92;&quot;,&#92;&quot;result_right&#92;&quot;:&#92;&quot;New database sprung,&#92;&#92;nIn fields of data they sung,&#92;&#92;nMistake? Tongue-in-bung.&#92;&quot;},{&#92;&quot;inputs&#92;&quot;:{&#92;&quot;topic&#92;&quot;:&#92;&quot;new databases&#92;&quot;},&#92;&quot;prompt_left&#92;&quot;:&#92;&quot;seed={seed} Write me a funny haiku about {topic} that rhymes.&#92;&quot;,&#92;&quot;result_left&#92;&quot;:&#92;&quot;Bought a database new,&#92;&#92;nBut bugs flew in the review,&#92;&#92;nWhat a nerdy crew!&#92;&quot;,&#92;&quot;prompt_right&#92;&quot;:&#92;&quot;seed={seed} Write me a haiku about {topic}&#92;&quot;,&#92;&quot;result_right&#92;&quot;:&#92;&quot;In search fields, born anew,&#92;&#92;nDatabases gleam like morning dew,&#92;&#92;nSilent wisdom they accrue.&#92;&quot;},{&#92;&quot;inputs&#92;&quot;:{&#92;&quot;topic&#92;&quot;:&#92;&quot;python library&#92;&quot;},&#92;&quot;prompt_left&#92;&quot;:&#92;&quot;seed={seed} Write me a funny haiku about {topic} that rhymes.&#92;&quot;,&#92;&quot;result_left&#92;&quot;:&#92;&quot;Pandas in the code,&#92;&#92;nBut don&#x27;t be in a hurry,&#92;&#92;nIt ain&#x27;t a real toad.&#92;&quot;,&#92;&quot;prompt_right&#92;&quot;:&#92;&quot;seed={seed} Write me a haiku about {topic}&#92;&quot;,&#92;&quot;result_right&#92;&quot;:&#92;&quot;In code we converse,&#92;&#92;nPython library, universe,&#92;&#92;nKnowledge to disperse.&#92;&quot;},{&#92;&quot;inputs&#92;&quot;:{&#92;&quot;topic&#92;&quot;:&#92;&quot;new databases&#92;&quot;},&#92;&quot;prompt_left&#92;&quot;:&#92;&quot;seed={seed} Write me a funny haiku about {topic} that rhymes.&#92;&quot;,&#92;&quot;result_left&#92;&quot;:&#92;&quot;New databases,&#92;&#92;nBrought chaos in its traces.&#92;&#92;nThe boss blames the cases!&#92;&#92;n&#92;&quot;,&#92;&quot;prompt_right&#92;&quot;:&#92;&quot;seed={seed} Write me a haiku about {topic}&#92;&quot;,&#92;&quot;result_right&#92;&quot;:&#92;&quot;In the digital sprawl,&#92;&#92;nNew databases rise, store, grow,&#92;&#92;nSilent knowledge calls.&#92;&quot;},{&#92;&quot;inputs&#92;&quot;:{&#92;&quot;topic&#92;&quot;:&#92;&quot;python library&#92;&quot;},&#92;&quot;prompt_left&#92;&quot;:&#92;&quot;seed={seed} Write me a funny haiku about {topic} that rhymes.&#92;&quot;,&#92;&quot;result_left&#92;&quot;:&#92;&quot;NumPy in the night,&#92;&#92;nWith data frames taking flight.&#92;&#92;nOh, what a delight!&#92;&quot;,&#92;&quot;prompt_right&#92;&quot;:&#92;&quot;seed={seed} Write me a haiku about {topic}&#92;&quot;,&#92;&quot;result_right&#92;&quot;:&#92;&quot;In vast code base thrives,&#92;&#92;nSilent library of Python,&#92;&#92;nKnowledge, unlocked, alive.&#92;&quot;}]&quot;' data-total-rows='16' data-total-columns='5' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;inputs&quot;, [&quot;unknown&quot;, &quot;struct[1]&quot;]], [&quot;prompt_left&quot;, [&quot;string&quot;, &quot;str&quot;]], [&quot;result_left&quot;, [&quot;string&quot;, &quot;str&quot;]], [&quot;prompt_right&quot;, [&quot;string&quot;, &quot;str&quot;]], [&quot;result_right&quot;, [&quot;string&quot;, &quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "f9ae4a53e1fa153655e243c1d925a776",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "An ancestor raised an exception (StopIteration): ",
+          "traceback": []
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "<span class=\"codehilite\"><div class=\"highlight\"><pre><span></span><span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">&quot;C:\\Users\\Patrick Bormann\\Desktop\\LLM_Building_BLock\\.venv\\lib\\site-packages\\marimo\\_runtime\\executor.py&quot;</span>, line <span class=\"m\">139</span>, in <span class=\"n\">execute_cell</span>\n<span class=\"w\">    </span><span class=\"k\">return</span> <span class=\"nb\">eval</span><span class=\"p\">(</span><span class=\"n\">cell</span><span class=\"o\">.</span><span class=\"n\">last_expr</span><span class=\"p\">,</span> <span class=\"n\">glbls</span><span class=\"p\">)</span>\n  File <span class=\"nb\">&quot;C:\\Users\\Patrick Bormann\\AppData\\Local\\Temp\\marimo_26552\\__marimo__cell_Xref_.py&quot;</span>, line <span class=\"m\">6</span>, in <span class=\"n\">&lt;module&gt;</span>\n<span class=\"w\">    </span><span class=\"n\">get_example</span><span class=\"p\">()[</span><span class=\"s2\">&quot;result_left&quot;</span><span class=\"p\">],</span>\n<span class=\"gr\">NameError</span>: <span class=\"n\">name &#39;get_example&#39; is not defined</span>\n</pre></div>\n</span>"
+        }
+      ]
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "328d635c6155bfda037b323dfa1d286d",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "An ancestor raised an exception (StopIteration): ",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "0f3300ef39c39840277705bd3657959b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "e800a69b6354462e72a68df56ecf88f3",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "syntax",
+          "evalue": "line 1\n    get_state()vs\n               ^^\nSyntaxError: invalid syntax\n",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "b2cbbf5dce1d66e1f7176719d6319b04",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "c72e401fb0721f31223525a8e01439be",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "This cell raised an exception: StopIteration",
+          "traceback": []
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "<span class=\"codehilite\"><div class=\"highlight\"><pre><span></span><span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">&quot;C:\\Users\\Patrick Bormann\\Desktop\\LLM_Building_BLock\\.venv\\lib\\site-packages\\marimo\\_runtime\\executor.py&quot;</span>, line <span class=\"m\">138</span>, in <span class=\"n\">execute_cell</span>\n<span class=\"w\">    </span><span class=\"n\">exec</span><span class=\"p\">(</span><span class=\"n\">cell</span><span class=\"o\">.</span><span class=\"n\">body</span><span class=\"p\">,</span> <span class=\"n\">glbls</span><span class=\"p\">)</span>\n  File <span class=\"nb\">&quot;C:\\Users\\Patrick Bormann\\AppData\\Local\\Temp\\marimo_26552\\__marimo__cell_emfo_.py&quot;</span>, line <span class=\"m\">1</span>, in <span class=\"n\">&lt;module&gt;</span>\n<span class=\"w\">    </span><span class=\"n\">get_example</span><span class=\"p\">,</span> <span class=\"n\">set_example</span> <span class=\"o\">=</span> <span class=\"n\">mo</span><span class=\"o\">.</span><span class=\"n\">state</span><span class=\"p\">(</span><span class=\"nb\">next</span><span class=\"p\">(</span><span class=\"n\">annot_stream</span><span class=\"p\">))</span>\n<span class=\"gr\">StopIteration</span>\n</pre></div>\n</span>"
+        }
+      ]
+    },
+    {
+      "id": "Hstk",
+      "code_hash": "08c2c70708fb554747927f0610a8140c",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "An ancestor raised an exception (StopIteration): ",
+          "traceback": []
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "<span class=\"codehilite\"><div class=\"highlight\"><pre><span></span><span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">&quot;C:\\Users\\Patrick Bormann\\Desktop\\LLM_Building_BLock\\.venv\\lib\\site-packages\\marimo\\_runtime\\executor.py&quot;</span>, line <span class=\"m\">139</span>, in <span class=\"n\">execute_cell</span>\n<span class=\"w\">    </span><span class=\"k\">return</span> <span class=\"nb\">eval</span><span class=\"p\">(</span><span class=\"n\">cell</span><span class=\"o\">.</span><span class=\"n\">last_expr</span><span class=\"p\">,</span> <span class=\"n\">glbls</span><span class=\"p\">)</span>\n  File <span class=\"nb\">&quot;C:\\Users\\Patrick Bormann\\AppData\\Local\\Temp\\marimo_26552\\__marimo__cell_Hstk_.py&quot;</span>, line <span class=\"m\">1</span>, in <span class=\"n\">&lt;module&gt;</span>\n<span class=\"w\">    </span><span class=\"n\">get_annot</span><span class=\"p\">()</span>\n<span class=\"gr\">NameError</span>: <span class=\"n\">name &#39;get_annot&#39; is not defined</span>\n</pre></div>\n</span>"
+        }
+      ]
+    }
+  ]
+}

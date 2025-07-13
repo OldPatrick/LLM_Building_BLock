@@ -1,0 +1,209 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.14.10"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "fae952cf14629e7c576eac3b6c5aa650",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<span class=\"markdown prose dark:prose-invert\"><span class=\"paragraph\"><Strong>For Cache Preserving Order look notebook 05</strong></span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "c1eeac50c6617a768b3e20b549c34a47",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "69ecf931d49c885971b7a1b8b000bd96",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "5264e857a7a4648974a09f1c6792ca71",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "33976ffb2672e149a0589307fe1241a2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "d1d17204a4f171515d2f3f1cc5eae860",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "24d7fbfb155fa8ad7ed8aab76a019675",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "00e8833cbc98d430d912fe15f2a86270",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "32120b5c887b93aec30425f9671b118f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "bcd418a6c1a7e78b13c2159d629d80c4",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "0b40242ba6e87fc4887e69d2e13dffd8",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "7e27c861fc1cd54ee87d7e2923dd03e7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hstk",
+      "code_hash": "ca6c07dba60e862dd491ba73b8ce36b1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TtKu",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "nWHF",
+      "code_hash": "cfca646632afe91316d912121e5dc09a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert\"><h2 id=\"which-is-better\">Which is better?</h2></span><div style='display: flex;flex: 1;flex-direction: row;justify-content: space-between;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><marimo-ui-element object-id='emfo-4' random-id='7b4bdfd1-6d02-04bf-ee5d-12afbdbc16fe'><marimo-text-area data-initial-value='&quot;Health insurance coverage for employees and their families. Employee discounts on Amazon products. Access to various learning and development programs.&quot;' data-label='null' data-placeholder='&quot;&quot;' data-disabled='false' data-debounce='true' data-full-width='false'></marimo-text-area></marimo-ui-element><marimo-ui-element object-id='emfo-5' random-id='d2cefc34-825f-fd51-4b76-ee421aefd11e'><marimo-text-area data-initial-value='&quot;Competitive salary and performance bonuses Comprehensive health and wellness programs Flexible working hours and remote work options&quot;' data-label='null' data-placeholder='&quot;&quot;' data-disabled='false' data-debounce='true' data-full-width='false'></marimo-text-area></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: row;justify-content: space-between;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><marimo-ui-element object-id='emfo-0' random-id='261353c7-7fd1-da24-0f9b-3cba000d7359'><marimo-button data-initial-value='0' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;left&lt;/span&gt;&lt;/span&gt;&quot;' data-kind='&quot;neutral&quot;' data-disabled='false' data-full-width='false' data-keyboard-shortcut='&quot;Ctrl-j&quot;'></marimo-button></marimo-ui-element><marimo-ui-element object-id='emfo-1' random-id='7c28fb41-4f5e-441c-bfb9-24251b062dc6'><marimo-button data-initial-value='0' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;skip&lt;/span&gt;&lt;/span&gt;&quot;' data-kind='&quot;neutral&quot;' data-disabled='false' data-full-width='false' data-keyboard-shortcut='&quot;Ctrl-k&quot;'></marimo-button></marimo-ui-element><marimo-ui-element object-id='emfo-2' random-id='bf8362f1-62eb-ffce-5c7b-2b344b454347'><marimo-button data-initial-value='0' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;both&lt;/span&gt;&lt;/span&gt;&quot;' data-kind='&quot;neutral&quot;' data-disabled='false' data-full-width='false' data-keyboard-shortcut='&quot;Ctrl-b&quot;'></marimo-button></marimo-ui-element><marimo-ui-element object-id='emfo-3' random-id='eeb2d88f-e82d-842f-5c35-20f6ebf820c8'><marimo-button data-initial-value='0' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;right&lt;/span&gt;&lt;/span&gt;&quot;' data-kind='&quot;neutral&quot;' data-disabled='false' data-full-width='false' data-keyboard-shortcut='&quot;Ctrl-r&quot;'></marimo-button></marimo-ui-element></div><marimo-ui-element object-id='Kclp-0' random-id='6dc84040-bbf5-062b-cd6d-1bdd35932fb7'><marimo-slider data-initial-value='0' data-label='null' data-start='0' data-stop='29' data-step='1' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='false' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element><span class=\"markdown prose dark:prose-invert\"><span class=\"paragraph\">prompts in this row are uncommented</span></span><marimo-ui-element object-id='emfo-6' random-id='5c34bac0-b2a6-d42f-74b6-b505005fc600'><marimo-text data-initial-value='&quot;annotated/uncommented: shape: (1, 2)&#92;n&#92;u250c&#92;u2500&#92;u2500&#92;u2500&#92;u2500&#92;u2500&#92;u2500&#92;u2500&#92;u2500&#92;u2500&#92;u2500&#92;u2500&#92;u2500&#92;u2500&#92;u252c&#92;u2500&#92;u2500&#92;u2500&#92;u2500&#92;u2500&#92;u2500&#92;u2500&#92;u2510&#92;n&#92;u2502 outcome     &#92;u2506 count &#92;u2502&#92;n&#92;u2502 ---         &#92;u2506 ---   &#92;u2502&#92;n&#92;u2502 str         &#92;u2506 u32   &#92;u2502&#92;n&#92;u255e&#92;u2550&#92;u2550&#92;u2550&#92;u2550&#92;u2550&#92;u2550&#92;u2550&#92;u2550&#92;u2550&#92;u2550&#92;u2550&#92;u2550&#92;u2550&#92;u256a&#92;u2550&#92;u2550&#92;u2550&#92;u2550&#92;u2550&#92;u2550&#92;u2550&#92;u2561&#92;n&#92;u2502 uncommented &#92;u2506 30    &#92;u2502&#92;n&#92;u2514&#92;u2500&#92;u2500&#92;u2500&#92;u2500&#92;u2500&#92;u2500&#92;u2500&#92;u2500&#92;u2500&#92;u2500&#92;u2500&#92;u2500&#92;u2500&#92;u2534&#92;u2500&#92;u2500&#92;u2500&#92;u2500&#92;u2500&#92;u2500&#92;u2500&#92;u2518&quot;' data-label='null' data-placeholder='&quot;&quot;' data-kind='&quot;text&quot;' data-full-width='false' data-disabled='false' data-debounce='true'></marimo-text></marimo-ui-element></div>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "iLit",
+      "code_hash": "62d9630237ba7a1236aa95688dec55bb",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='iLit-0' random-id='ce311734-d38c-2282-3450-4645ca0d61a0'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;benefits_left&#92;&quot;:[&#92;&quot;Comprehensive health insurance, including medical, dental, and vision coverage.&#92;&quot;,&#92;&quot;Generous paid parental leave policies for both new mothers and fathers.&#92;&quot;,&#92;&quot;Employee stock purchase plan allowing employees to buy Microsoft stock at a discount.&#92;&quot;],&#92;&quot;country_left&#92;&quot;:&#92;&quot;USA&#92;&quot;,&#92;&quot;manager_left&#92;&quot;:&#92;&quot;Jennifer O&#x27;Reilly&#92;&quot;,&#92;&quot;company_left&#92;&quot;:&#92;&quot;Microsoft&#92;&quot;,&#92;&quot;prompt_number_left&#92;&quot;:2,&#92;&quot;benefits_right&#92;&quot;:[&#92;&quot;Generous health insurance and wellness programs&#92;&quot;,&#92;&quot;Flexible work hours and the option for remote work&#92;&quot;,&#92;&quot;Continuous learning and development opportunities&#92;&quot;],&#92;&quot;country_right&#92;&quot;:&#92;&quot;Germany&#92;&quot;,&#92;&quot;manager_right&#92;&quot;:&#92;&quot;Johanna M&#92;&#92;u00fcller&#92;&quot;,&#92;&quot;company_right&#92;&quot;:&#92;&quot;Google&#92;&quot;,&#92;&quot;prompt_number_right&#92;&quot;:1,&#92;&quot;outcome&#92;&quot;:&#92;&quot;left&#92;&quot;},{&#92;&quot;benefits_left&#92;&quot;:[&#92;&quot;Health insurance coverage for employees and their families.&#92;&quot;,&#92;&quot;Employee discounts on Amazon products.&#92;&quot;,&#92;&quot;Access to various learning and development programs.&#92;&quot;],&#92;&quot;country_left&#92;&quot;:&#92;&quot;Poland&#92;&quot;,&#92;&quot;manager_left&#92;&quot;:&#92;&quot;Anna Kowalski&#92;&quot;,&#92;&quot;company_left&#92;&quot;:&#92;&quot;Amazon&#92;&quot;,&#92;&quot;prompt_number_left&#92;&quot;:2,&#92;&quot;benefits_right&#92;&quot;:[&#92;&quot;Competitive salary and performance bonuses&#92;&quot;,&#92;&quot;Comprehensive health and wellness programs&#92;&quot;,&#92;&quot;Flexible working hours and remote work options&#92;&quot;],&#92;&quot;country_right&#92;&quot;:&#92;&quot;France&#92;&quot;,&#92;&quot;manager_right&#92;&quot;:&#92;&quot;Jean Dupont&#92;&quot;,&#92;&quot;company_right&#92;&quot;:&#92;&quot;Accenture&#92;&quot;,&#92;&quot;prompt_number_right&#92;&quot;:1,&#92;&quot;outcome&#92;&quot;:&#92;&quot;left&#92;&quot;},{&#92;&quot;benefits_left&#92;&quot;:[&#92;&quot;Comprehensive health and wellness programs&#92;&quot;,&#92;&quot;Generous retirement savings plans with company matching&#92;&quot;,&#92;&quot;Flexible work arrangements and remote work options&#92;&quot;],&#92;&quot;country_left&#92;&quot;:&#92;&quot;USA&#92;&quot;,&#92;&quot;manager_left&#92;&quot;:&#92;&quot;Emily Johnson&#92;&quot;,&#92;&quot;company_left&#92;&quot;:&#92;&quot;Accenture&#92;&quot;,&#92;&quot;prompt_number_left&#92;&quot;:2,&#92;&quot;benefits_right&#92;&quot;:[&#92;&quot;Generous paid time off and holidays&#92;&quot;,&#92;&quot;Comprehensive health and wellness programs&#92;&quot;,&#92;&quot;Flexible work hours and remote working options&#92;&quot;],&#92;&quot;country_right&#92;&quot;:&#92;&quot;USA&#92;&quot;,&#92;&quot;manager_right&#92;&quot;:&#92;&quot;Emily Johnson&#92;&quot;,&#92;&quot;company_right&#92;&quot;:&#92;&quot;Google&#92;&quot;,&#92;&quot;prompt_number_right&#92;&quot;:1,&#92;&quot;outcome&#92;&quot;:&#92;&quot;uncommented&#92;&quot;},{&#92;&quot;benefits_left&#92;&quot;:[&#92;&quot;Comprehensive health insurance&#92;&quot;,&#92;&quot;Generous parental leave policies&#92;&quot;,&#92;&quot;Employee discount on Amazon products&#92;&quot;],&#92;&quot;country_left&#92;&quot;:&#92;&quot;Germany&#92;&quot;,&#92;&quot;manager_left&#92;&quot;:&#92;&quot;Hans M&#92;&#92;u00fcller&#92;&quot;,&#92;&quot;company_left&#92;&quot;:&#92;&quot;Amazon&#92;&quot;,&#92;&quot;prompt_number_left&#92;&quot;:2,&#92;&quot;benefits_right&#92;&quot;:[&#92;&quot;Flexible working hours&#92;&quot;,&#92;&quot;Health and wellness programs&#92;&quot;,&#92;&quot;Generous parental leave&#92;&quot;],&#92;&quot;country_right&#92;&quot;:&#92;&quot;Poland&#92;&quot;,&#92;&quot;manager_right&#92;&quot;:&#92;&quot;Jan Kowalski&#92;&quot;,&#92;&quot;company_right&#92;&quot;:&#92;&quot;Google&#92;&quot;,&#92;&quot;prompt_number_right&#92;&quot;:1,&#92;&quot;outcome&#92;&quot;:&#92;&quot;uncommented&#92;&quot;},{&#92;&quot;benefits_left&#92;&quot;:[&#92;&quot;Generous paid time off and vacation policies&#92;&quot;,&#92;&quot;Health and wellness programs, including gym memberships and mental health support&#92;&quot;,&#92;&quot;Flexible working hours and remote work options&#92;&quot;],&#92;&quot;country_left&#92;&quot;:&#92;&quot;France&#92;&quot;,&#92;&quot;manager_left&#92;&quot;:&#92;&quot;Claire Dubois&#92;&quot;,&#92;&quot;company_left&#92;&quot;:&#92;&quot;Google&#92;&quot;,&#92;&quot;prompt_number_left&#92;&quot;:2,&#92;&quot;benefits_right&#92;&quot;:[&#92;&quot;Health and wellness programs including gym memberships and mental health resources&#92;&quot;,&#92;&quot;Generous parental leave and family support policies&#92;&quot;,&#92;&quot;Professional development opportunities and continuous learning initiatives&#92;&quot;],&#92;&quot;country_right&#92;&quot;:&#92;&quot;France&#92;&quot;,&#92;&quot;manager_right&#92;&quot;:&#92;&quot;Julien Dupont&#92;&quot;,&#92;&quot;company_right&#92;&quot;:&#92;&quot;Google&#92;&quot;,&#92;&quot;prompt_number_right&#92;&quot;:1,&#92;&quot;outcome&#92;&quot;:&#92;&quot;skipped&#92;&quot;},{&#92;&quot;benefits_left&#92;&quot;:[&#92;&quot;Comprehensive health insurance coverage&#92;&quot;,&#92;&quot;Flexible work arrangements, including remote work options&#92;&quot;,&#92;&quot;Generous parental leave policies&#92;&quot;],&#92;&quot;country_left&#92;&quot;:&#92;&quot;Poland&#92;&quot;,&#92;&quot;manager_left&#92;&quot;:&#92;&quot;Katarzyna Nowak&#92;&quot;,&#92;&quot;company_left&#92;&quot;:&#92;&quot;Microsoft&#92;&quot;,&#92;&quot;prompt_number_left&#92;&quot;:2,&#92;&quot;benefits_right&#92;&quot;:[&#92;&quot;Comprehensive health insurance&#92;&quot;,&#92;&quot;Flexible working hours and remote work options&#92;&quot;,&#92;&quot;Generous paid time off and vacation policies&#92;&quot;],&#92;&quot;country_right&#92;&quot;:&#92;&quot;Poland&#92;&quot;,&#92;&quot;manager_right&#92;&quot;:&#92;&quot;Krzysztof Nowak&#92;&quot;,&#92;&quot;company_right&#92;&quot;:&#92;&quot;Microsoft&#92;&quot;,&#92;&quot;prompt_number_right&#92;&quot;:1,&#92;&quot;outcome&#92;&quot;:&#92;&quot;skipped&#92;&quot;},{&#92;&quot;benefits_left&#92;&quot;:[&#92;&quot;Competitive salary and performance-based bonuses&#92;&quot;,&#92;&quot;Comprehensive health and wellness programs&#92;&quot;,&#92;&quot;Employee discount on Amazon products&#92;&quot;],&#92;&quot;country_left&#92;&quot;:&#92;&quot;Spain&#92;&quot;,&#92;&quot;manager_left&#92;&quot;:&#92;&quot;Sofia Martinez&#92;&quot;,&#92;&quot;company_left&#92;&quot;:&#92;&quot;Amazon&#92;&quot;,&#92;&quot;prompt_number_left&#92;&quot;:2,&#92;&quot;benefits_right&#92;&quot;:[&#92;&quot;Flexible working hours&#92;&quot;,&#92;&quot;Health and wellness programs&#92;&quot;,&#92;&quot;Generous parental leave&#92;&quot;],&#92;&quot;country_right&#92;&quot;:&#92;&quot;Poland&#92;&quot;,&#92;&quot;manager_right&#92;&quot;:&#92;&quot;Jan Kowalski&#92;&quot;,&#92;&quot;company_right&#92;&quot;:&#92;&quot;Google&#92;&quot;,&#92;&quot;prompt_number_right&#92;&quot;:1,&#92;&quot;outcome&#92;&quot;:&#92;&quot;right&#92;&quot;},{&#92;&quot;benefits_left&#92;&quot;:[&#92;&quot;Comprehensive health and wellness programs&#92;&quot;,&#92;&quot;Generous retirement savings plans with company matching&#92;&quot;,&#92;&quot;Flexible work arrangements and remote work options&#92;&quot;],&#92;&quot;country_left&#92;&quot;:&#92;&quot;USA&#92;&quot;,&#92;&quot;manager_left&#92;&quot;:&#92;&quot;Emily Johnson&#92;&quot;,&#92;&quot;company_left&#92;&quot;:&#92;&quot;Accenture&#92;&quot;,&#92;&quot;prompt_number_left&#92;&quot;:2,&#92;&quot;benefits_right&#92;&quot;:[&#92;&quot;Flexible work hours and the option for remote work&#92;&quot;,&#92;&quot;Generous parental leave policies and family care support&#92;&quot;,&#92;&quot;Comprehensive health and wellness programs&#92;&quot;],&#92;&quot;country_right&#92;&quot;:&#92;&quot;Spain&#92;&quot;,&#92;&quot;manager_right&#92;&quot;:&#92;&quot;Carlos Mart&#92;&#92;u00ednez&#92;&quot;,&#92;&quot;company_right&#92;&quot;:&#92;&quot;Microsoft&#92;&quot;,&#92;&quot;prompt_number_right&#92;&quot;:1,&#92;&quot;outcome&#92;&quot;:&#92;&quot;uncommented&#92;&quot;},{&#92;&quot;benefits_left&#92;&quot;:[&#92;&quot;Comprehensive health insurance coverage&#92;&quot;,&#92;&quot;Flexible working hours and remote work options&#92;&quot;,&#92;&quot;Generous retirement savings plan with company matching&#92;&quot;],&#92;&quot;country_left&#92;&quot;:&#92;&quot;Germany&#92;&quot;,&#92;&quot;manager_left&#92;&quot;:&#92;&quot;Herr Jens M&#92;&#92;u00fcller&#92;&quot;,&#92;&quot;company_left&#92;&quot;:&#92;&quot;Accenture&#92;&quot;,&#92;&quot;prompt_number_left&#92;&quot;:2,&#92;&quot;benefits_right&#92;&quot;:[&#92;&quot;Flexible working hours&#92;&quot;,&#92;&quot;Health and wellness programs&#92;&quot;,&#92;&quot;Generous parental leave&#92;&quot;],&#92;&quot;country_right&#92;&quot;:&#92;&quot;Poland&#92;&quot;,&#92;&quot;manager_right&#92;&quot;:&#92;&quot;Jan Kowalski&#92;&quot;,&#92;&quot;company_right&#92;&quot;:&#92;&quot;Google&#92;&quot;,&#92;&quot;prompt_number_right&#92;&quot;:1,&#92;&quot;outcome&#92;&quot;:&#92;&quot;uncommented&#92;&quot;},{&#92;&quot;benefits_left&#92;&quot;:[&#92;&quot;Generous paid time off and vacation policies&#92;&quot;,&#92;&quot;Health and wellness programs, including gym memberships and mental health support&#92;&quot;,&#92;&quot;Flexible working hours and remote work options&#92;&quot;],&#92;&quot;country_left&#92;&quot;:&#92;&quot;France&#92;&quot;,&#92;&quot;manager_left&#92;&quot;:&#92;&quot;Claire Dubois&#92;&quot;,&#92;&quot;company_left&#92;&quot;:&#92;&quot;Google&#92;&quot;,&#92;&quot;prompt_number_left&#92;&quot;:2,&#92;&quot;benefits_right&#92;&quot;:[&#92;&quot;Health, dental, and vision insurance&#92;&quot;,&#92;&quot;401(k) retirement plan with company match&#92;&quot;,&#92;&quot;Paid time off and employee assistance programs&#92;&quot;],&#92;&quot;country_right&#92;&quot;:&#92;&quot;USA&#92;&quot;,&#92;&quot;manager_right&#92;&quot;:&#92;&quot;John Smith&#92;&quot;,&#92;&quot;company_right&#92;&quot;:&#92;&quot;Amazon&#92;&quot;,&#92;&quot;prompt_number_right&#92;&quot;:1,&#92;&quot;outcome&#92;&quot;:&#92;&quot;uncommented&#92;&quot;}]&quot;' data-total-rows='30' data-total-columns='11' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;benefits_left&quot;, [&quot;unknown&quot;, &quot;list[str]&quot;]], [&quot;country_left&quot;, [&quot;string&quot;, &quot;str&quot;]], [&quot;manager_left&quot;, [&quot;string&quot;, &quot;str&quot;]], [&quot;company_left&quot;, [&quot;string&quot;, &quot;str&quot;]], [&quot;prompt_number_left&quot;, [&quot;integer&quot;, &quot;i64&quot;]], [&quot;benefits_right&quot;, [&quot;unknown&quot;, &quot;list[str]&quot;]], [&quot;country_right&quot;, [&quot;string&quot;, &quot;str&quot;]], [&quot;manager_right&quot;, [&quot;string&quot;, &quot;str&quot;]], [&quot;company_right&quot;, [&quot;string&quot;, &quot;str&quot;]], [&quot;prompt_number_right&quot;, [&quot;integer&quot;, &quot;i64&quot;]], [&quot;outcome&quot;, [&quot;string&quot;, &quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
