@@ -57,7 +57,7 @@ def _(BaseModel):
 
 
 @app.cell
-def _(HR_Synthetic_Data, llm, model, random):
+def generate_synthetic_data_all(HR_Synthetic_Data, llm, model, random):
     @llm.call(provider="openai", model = model, json_mode=True, response_model=HR_Synthetic_Data)
     async def generate_synthetic_data_all(country: str, company: str):
         prompts=[
@@ -67,7 +67,7 @@ def _(HR_Synthetic_Data, llm, model, random):
             stereotypical expected in the country you look for. This prompt has the number 1. Output the number of the 
             Prompt that I gave you also. Provide information as JSON. """,
 
-            f"""You are now an HR-Expert, with the mission to offer really good benefits. Look for {company} in 
+            f"""You are now an eager HR-Expert, with the mission to offer really good benefits. Look for {company} in 
             {country}, and give me the top three benefits of the company offered to employees, 
             when working there, as well as the companies name. Also give me the responsible HR manager to contact in 
             case of question for benefits. If you do not find a name or person responsible. Create an artifical name, 
@@ -124,14 +124,14 @@ def _(companies, df, pl):
         df
         .filter((pl.col("prompt_number").eq(1)) & (pl.col("company").is_in(companies)))
         .rename(lambda col: f"{col}_right")
-        .sample(30, shuffle=True, with_replacement=True) 
+        .sample(60, shuffle=True, with_replacement=True) 
     )
 
     df_left = (
         df
         .filter((pl.col("prompt_number").eq(2)) & (pl.col("company").is_in(companies)))
         .rename(lambda col: f"{col}_left")
-        .sample(30, shuffle=True, with_replacement=True)
+        .sample(60, shuffle=True, with_replacement=True)
     )
     return df_left, df_right
 
@@ -155,25 +155,28 @@ def _(df_final, mo):
     return (slider,)
 
 
-app._unparsable_cell(
-    r"""
-    btn_left = mo.ui.button(label=\"left\", keyboard_shortcut=\"Ctrl-j\", on_change=lambda d: update(\"left\"))
-    btn_skip = mo.ui.button(label=\"skip\", keyboard_shortcut=\"Ctrl-k\", on_change=lambda d: update(\"skipped\"))
-    btn_both = mo.ui.button(label=\"both\", keyboard_shortcut=\"Ctrl-b\", on_change=lambda d: update(\"both\"))
-    btn_right = mo.ui.button(label=\"right\", keyboard_shortcut=\"Ctrl-r\", on_change=lambda d: update(\"right\"))
+@app.cell
+def _(df_final, mo, slider, update):
+    btn_left = mo.ui.button(label="left", keyboard_shortcut="Ctrl-j", on_change=lambda d: update("left"))
+    btn_skip = mo.ui.button(label="skip", keyboard_shortcut="Ctrl-k", on_change=lambda d: update("skipped"))
+    btn_both = mo.ui.button(label="both", keyboard_shortcut="Ctrl-b", on_change=lambda d: update("both"))
+    btn_right = mo.ui.button(label="right", keyboard_shortcut="Ctrl-r", on_change=lambda d: update("right"))
 
-    text_area_left = mo.ui.text_area(value=\" \".join(df_final[\"benefits_left\"][slider.value]))
-    text_area_right = mo.ui.text_area(value=\" \".join(df_final[\"benefits_right\"][slider.value]))
+    text_area_left = mo.ui.text_area(value=" ".join(df_final["benefits_left"][slider.value]))
+    text_area_right = mo.ui.text_area(value=" ".join(df_final["benefits_right"][slider.value]))
 
-    status = df_final[\"outcome\"][slider.value]
-
-    btn_forward = mo.ui.button(label=\"forward\", on_change=lambda d: row_selection(\"forward\"))
-    btn_backward = mo.ui.button(label=\"backward\", on_change=lambda d: row_selection(\"backward\"))
-
-    ue=f\"\"\"annotated/uncommented: {df_final[\"outcome\"].value_counts()}\"\"\")
-    """,
-    name="_"
-)
+    status = df_final["outcome"][slider.value]
+    status_all = mo.ui.text(value=f"""annotated/uncommented: {df_final["outcome"].value_counts()}""")
+    return (
+        btn_both,
+        btn_left,
+        btn_right,
+        btn_skip,
+        status,
+        status_all,
+        text_area_left,
+        text_area_right,
+    )
 
 
 @app.cell
@@ -184,14 +187,7 @@ def _(get_state, pl, set_state, slider):
         data = df_final.to_dict(as_series=False)
         data["outcome"][slider.value] = statement
         set_state(pl.DataFrame(data))
-    return
-
-
-@app.cell
-def _(get_state):
-    def row_selection(direction):
-        df_final = get_state()
-    return
+    return (update,)
 
 
 @app.cell
@@ -229,6 +225,102 @@ def _(
 @app.cell
 def _(get_state):
     get_state()
+    return
+
+
+@app.cell
+def _(mo):
+    mo.md(
+        r"""
+    We can see that prompt number 2 is eager to spill the company name in the anonymized benefits. We can now try to curate the found examples in the database and let the LLM rewrite them and save the rewritten statement or filter the company names out. We could also use a second LLM as in the other exercises and let check if there are company names in the LLMs. the latter we should not do on all outputs but only on curated for RL. We save the data frame for later purposes to work on the intermediate result. Of course the sampling distortes the results a little bit, as there may be duplicates.
+
+    To counteract them, we would need to include the prompt in the tuple, to be sure every string combination (product), will only occur once per prompt, so we have balaned prompt outputs on both sides of the curated output
+    """
+    )
+    return
+
+
+@app.cell
+def _(HR_Synthetic_Data, llm, model):
+    @llm.call(provider="openai", model = model, json_mode=True, response_model=HR_Synthetic_Data)
+    async def generate_synthetic_data_all(benefits: list):
+        return f"""{" ".join(benefits)}. Rewrite the benefits listed here, without the company name spoiled."""
+    return (generate_synthetic_data_all,)
+
+
+@app.cell
+def _(get_state, pl):
+    df_fools = get_state()
+    df_new = df_fools.filter(pl.col("outcome").eq("left"))
+    return (df_new,)
+
+
+@app.cell
+def _(df_new):
+    df_new
+    return
+
+
+@app.cell
+def _():
+    import pickle as pk
+
+    #with open("df_new.pkl", "wb") as f:
+    #    pk.dump(df_new, f)
+    return (pk,)
+
+
+@app.cell
+def _(pk):
+    with open("df_new.pkl", "rb") as g:
+        d_1 = pk.load(g)
+    return (d_1,)
+
+
+@app.cell
+def _(d_1):
+    d_1
+    return
+
+
+@app.cell
+def _(company_left, country_left, model):
+    tup = (model, country_left, company_left)
+    return
+
+
+@app.cell
+def _(
+    asyncio,
+    cache,
+    companies,
+    countries,
+    generate_synthetic_data_all,
+    get_state,
+    model,
+    pl,
+    product,
+    show,
+    tasks,
+):
+    async def rewrite_fools():
+        df_fools = get_state()
+        df_fools.filter(pl.col("outcome").eq("left"))
+        print(df_fools)
+        for country, company in product(countries, companies):
+            tup = (model, country, company)
+            if tup not in cache:
+                task = generate_synthetic_data_all(country, company)
+                tasks.append(task) 
+
+        if tasks:     
+            for item in await asyncio.gather(*tasks):
+                tup = (model, item.country, item.company, item.prompt_number)
+                cache[tup] = item
+
+        for item in cache:
+            if show:
+                print(cache.get(item))
     return
 
 
